@@ -46,6 +46,8 @@ def run_friday():
         info = wikipedia.summary(person, 1)
         print(info)
         talk(info)
+    elif 'who are you' in command:
+        talk('hello sir ,i am an artificial intelligence program written in python language by Mr.Avinash mehra,........how can i help you sir')
     elif 'date' in command:
         talk('sorry, I have a headache')
     elif 'are you single' in command:
