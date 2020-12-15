@@ -1,4 +1,4 @@
-import speech_recognition as sr
+import SpeechRecognition
 import pyttsx3
 import pywhatkit
 import datetime
